@@ -1,0 +1,24 @@
+{
+  "name": "binance-funding-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "binance-api-node": "^0.12.9",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.0",
+    "ws": "^8.18.1"
+  },
+  "type": "module"
+}

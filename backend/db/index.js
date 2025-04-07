@@ -7,10 +7,10 @@ const { Pool } = pg
 
 const pool = new Pool({
   user: "postgres",
-  password: "root",
+  password: "postgres",
   host: "localhost",
   port: 5432,
-  database: "auth_system",
+  database: "TocenBank",
 })
 
 // Test database connection
